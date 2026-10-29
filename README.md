@@ -6,6 +6,7 @@ Caso práctico de **cartera y cuentas por cobrar** con datos ficticios: notas cr
 **Corte:** 30/09/2026  
 **Moneda:** COP  
 **Datos:** 100% sintéticos.
+**Repositorio:** https://github.com/Samircopete12/cartera-clientes
 
 ---
 

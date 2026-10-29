@@ -229,6 +229,9 @@ p {{ margin: 0 0 6pt; }}
 .cover-sub {{ font-size: 12.5pt; color: {GRAY}; margin-top: 8pt; max-width: 165mm; }}
 .author {{ margin-top: 20pt; font-size: 10pt; color: {GRAY}; }}
 .cover-grid {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 8pt; margin-top: 20pt; }}
+.toc {{ display: grid; grid-template-columns: repeat(5, 1fr); gap: 6pt; margin-top: 28pt; border-top: 1px solid #D5DEE7; border-bottom: 1px solid #D5DEE7; padding: 8pt 0; }}
+.toc div {{ font-size: 7.8pt; color: {GRAY}; line-height: 1.3; }}
+.toc strong {{ display: block; color: {TEAL}; font-size: 9pt; margin-bottom: 2pt; }}
 .kpi {{ background: {LIGHT}; border-left: 4px solid {TEAL}; padding: 9pt 10pt; min-height: 22mm; }}
 .kpi .label {{ font-size: 7.8pt; color: {GRAY}; text-transform: uppercase; letter-spacing: .5px; }}
 .kpi .value {{ font-size: 16pt; font-weight: bold; color: {NAVY}; margin-top: 3pt; }}
@@ -266,6 +269,13 @@ li {{ margin-bottom: 3pt; }}
     <h1>Caso de cartera<br>20 clientes</h1>
     <div class="cover-sub">Notas crédito y débito · aplicación de pagos · aging · conciliación bancaria · dashboard en Excel</div>
     <div class="author"><strong>Kelvis Samir Copete Córdoba</strong> · Medellín, Colombia · Corte: 30/09/2026</div>
+    <div class="toc">
+      <div><strong>01</strong>Contexto y alcance</div>
+      <div><strong>02</strong>Cifras clave</div>
+      <div><strong>03</strong>Aging y hallazgos</div>
+      <div><strong>04</strong>Conciliación</div>
+      <div><strong>05</strong>Entrevista</div>
+    </div>
   </div>
   <div>
     <div class="cover-grid">
@@ -278,7 +288,7 @@ li {{ margin-bottom: 3pt; }}
     </div>
     <div class="callout"><strong>Qué demuestra:</strong> capacidad para reconstruir saldos, aplicar pagos, clasificar cartera por vencimiento, detectar clientes sobre cupo y explicar diferencias bancarias con evidencia.</div>
   </div>
-  <div class="cover-bottom">Datos 100% ficticios · Distribuciones Andinas S.A.S. · Workbook: Cartera_20_Clientes.xlsx · Guía: Guia_Caso_Cartera.pdf</div>
+  <div class="cover-bottom">Datos 100% ficticios · Distribuciones Andinas S.A.S. · Workbook: Cartera_20_Clientes.xlsx · Guía: Guia_Caso_Cartera.pdf · github.com/Samircopete12/cartera-clientes</div>
 </div>
 
 <h2>1. Contexto y objetivo</h2>
