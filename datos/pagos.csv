@@ -1,0 +1,36 @@
+PagoID,ClienteID,Fecha,ValorRecibido,Medio,Banco,Referencia,Observacion
+RC-2026-001,C010,2026-07-22,4221000,PSE,Banco de Bogotá,PAGO-0001,Recaudo aplicado a facturas
+RC-2026-002,C019,2026-06-09,6138000,Transferencia,Banco de Bogotá,PAGO-0002,Recaudo aplicado a facturas
+RC-2026-003,C018,2026-08-24,9925000,Efectivo,BBVA,PAGO-0003,Incluye valor pendiente de aplicar
+RC-2026-004,C017,2026-09-21,1643000,PSE,Davivienda,PAGO-0004,Recaudo aplicado a facturas
+RC-2026-005,C003,2026-09-28,1569000,PSE,Banco de Bogotá,PAGO-0005,Recaudo aplicado a facturas
+RC-2026-006,C014,2026-07-04,2704000,Transferencia,BBVA,PAGO-0006,Recaudo aplicado a facturas
+RC-2026-007,C010,2026-08-24,6025000,PSE,Bancolombia,PAGO-0007,Recaudo aplicado a facturas
+RC-2026-008,C011,2026-09-05,3145000,PSE,Banco de Bogotá,PAGO-0008,Recaudo aplicado a facturas
+RC-2026-009,C016,2026-08-02,6191000,Efectivo,Davivienda,PAGO-0009,Recaudo aplicado a facturas
+RC-2026-010,C001,2026-09-26,2183000,Cheque,Davivienda,PAGO-0010,Recaudo aplicado a facturas
+RC-2026-011,C004,2026-08-31,910000,PSE,BBVA,PAGO-0011,Incluye valor pendiente de aplicar
+RC-2026-012,C019,2026-07-22,689000,PSE,Banco de Bogotá,PAGO-0012,Recaudo aplicado a facturas
+RC-2026-013,C017,2026-09-26,986000,Transferencia,Davivienda,PAGO-0013,Recaudo aplicado a facturas
+RC-2026-014,C015,2026-09-24,6009000,Transferencia,BBVA,PAGO-0014,Recaudo aplicado a facturas
+RC-2026-015,C003,2026-08-27,1726000,Transferencia,Bancolombia,PAGO-0015,Recaudo aplicado a facturas
+RC-2026-016,C006,2026-09-16,6338000,Efectivo,Bancolombia,PAGO-0016,Recaudo aplicado a facturas
+RC-2026-017,C005,2026-05-16,2306000,PSE,Davivienda,PAGO-0017,Recaudo aplicado a facturas
+RC-2026-018,C019,2026-05-10,3828000,Transferencia,Bancolombia,PAGO-0018,Recaudo aplicado a facturas
+RC-2026-019,C017,2026-09-12,110000,PSE,Bancolombia,PAGO-0019,Recaudo aplicado a facturas
+RC-2026-020,C008,2026-09-16,6178000,Cheque,Banco de Bogotá,PAGO-0020,Recaudo aplicado a facturas
+RC-2026-021,C009,2026-09-26,4078000,Transferencia,Davivienda,PAGO-0021,Recaudo aplicado a facturas
+RC-2026-022,C009,2026-09-26,453000,Efectivo,Bancolombia,PAGO-0022,Recaudo aplicado a facturas
+RC-2026-023,C014,2026-09-11,7407000,PSE,BBVA,PAGO-0023,Incluye valor pendiente de aplicar
+RC-2026-024,C003,2026-09-11,5982000,Transferencia,Banco de Bogotá,PAGO-0024,Recaudo aplicado a facturas
+RC-2026-025,C004,2026-08-06,541000,PSE,Davivienda,PAGO-0025,Recaudo aplicado a facturas
+RC-2026-026,C002,2026-08-05,1361000,Cheque,Banco de Bogotá,PAGO-0026,Recaudo aplicado a facturas
+RC-2026-027,C019,2026-08-24,506000,PSE,Banco de Bogotá,PAGO-0027,Recaudo aplicado a facturas
+RC-2026-028,C001,2026-09-07,1310000,Efectivo,Banco de Bogotá,PAGO-0028,Recaudo aplicado a facturas
+RC-2026-029,C009,2026-09-12,6001000,PSE,Banco de Bogotá,PAGO-0029,Recaudo aplicado a facturas
+RC-2026-030,C019,2026-08-05,337000,Transferencia,BBVA,PAGO-0030,Recaudo aplicado a facturas
+RC-2026-031,C007,2026-09-09,5245000,PSE,Davivienda,PAGO-0031,Incluye valor pendiente de aplicar
+RC-2026-032,C010,2026-09-19,552000,Efectivo,BBVA,PAGO-0032,Recaudo aplicado a facturas
+RC-2026-033,C005,2026-07-06,2537000,Transferencia,Bancolombia,PAGO-0033,Recaudo aplicado a facturas
+RC-2026-034,C005,2026-05-29,212000,Cheque,BBVA,PAGO-0034,Recaudo aplicado a facturas
+RC-2026-035,C005,2026-07-16,32000,Efectivo,Davivienda,PAGO-0035,Recaudo aplicado a facturas

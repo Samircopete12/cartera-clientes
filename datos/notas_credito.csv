@@ -1,0 +1,9 @@
+NotaCreditoID,FacturaID,ClienteID,Fecha,Valor,Motivo
+NC-2026-001,FV-2026-040,C019,2026-05-04,269000,Devolución de mercancía
+NC-2026-002,FV-2026-050,C006,2026-05-07,538000,Ajuste por producto defectuoso
+NC-2026-003,FV-2026-034,C019,2026-04-30,326000,Error de facturación
+NC-2026-004,FV-2026-048,C020,2026-09-30,470000,Descuento comercial
+NC-2026-005,FV-2026-002,C002,2026-06-14,648000,Ajuste por producto defectuoso
+NC-2026-006,FV-2026-030,C012,2026-04-22,849000,Devolución de mercancía
+NC-2026-007,FV-2026-028,C013,2026-07-31,657000,Ajuste por producto defectuoso
+NC-2026-008,FV-2026-035,C012,2026-07-13,228000,Devolución de mercancía

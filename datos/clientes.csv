@@ -1,0 +1,21 @@
+ClienteID,Nombre,NIT,Ciudad,CupoCredito,PlazoDias
+C001,Almacén Central S.A.S.,900.123.456-1,Medellín,25000000,30
+C002,Distribuidora El Poblado,901.234.567-2,Medellín,18000000,30
+C003,Ferretería La 80,890.345.678-3,Medellín,12000000,45
+C004,Suministros Antioquia,900.456.789-4,Itagüí,20000000,30
+C005,Papelería Modelo,901.567.890-5,Bello,8000000,30
+C006,Constructora Andina,890.678.901-6,Medellín,35000000,60
+C007,Hotel Mirador,900.789.012-7,Medellín,15000000,45
+C008,Clínica San Lucas,901.890.123-8,Envigado,22000000,30
+C009,Colegio Nuevo Horizonte,890.901.234-9,Sabaneta,10000000,45
+C010,Supermercado La Estrella,900.012.345-0,La Estrella,14000000,30
+C011,Talleres Jaramillo,901.123.456-1,Medellín,9000000,30
+C012,Restaurante El Trapiche,890.234.567-2,Medellín,7000000,15
+C013,Textiles Rionegro,900.345.678-3,Rionegro,28000000,60
+C014,Laboratorio Vital,901.456.789-4,Medellín,16000000,45
+C015,Centro Médico del Sur,890.567.890-5,Envigado,13000000,30
+C016,Oficinas Premium,900.678.901-6,Medellín,11000000,30
+C017,Transportes Cargo Sur,901.789.012-7,Caldas,19000000,45
+C018,Panadería La Espiga,890.890.123-8,Bello,5000000,15
+C019,Farmacia Central,900.901.234-9,Medellín,12000000,30
+C020,Imprenta Aurora,901.012.345-0,Medellín,8000000,30

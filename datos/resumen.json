@@ -1,0 +1,159 @@
+{
+  "corte": "2026-09-30",
+  "clientes": 20,
+  "facturas": 50,
+  "notas_credito": 8,
+  "notas_debito": 6,
+  "pagos": 35,
+  "aplicaciones": 40,
+  "movimientos_banco": 35,
+  "facturado": 231141000.0,
+  "notas_credito_valor": 3985000.0,
+  "notas_debito_valor": 848000.0,
+  "recaudo": 109378000.0,
+  "aplicado": 108308000.0,
+  "no_aplicado": 1070000.0,
+  "cartera_total": 119696000.0,
+  "cartera_vencida": 102336000.0,
+  "cartera_vigente": 17360000.0,
+  "pct_vencida": 0.8549659136479081,
+  "cupo_total": 307000000.0,
+  "pct_cupo_usado": 0.38988925081433223,
+  "clientes_con_saldo": 16,
+  "clientes_sobre_cupo": 3,
+  "facturas_con_saldo": 38,
+  "aging": {
+    "Vigente": 17360000.0,
+    "0-30": 45694000.0,
+    "31-60": 8962000.0,
+    "61-90": 6823000.0,
+    ">90": 40857000.0
+  },
+  "top_clientes": [
+    {
+      "ClienteID": "C020",
+      "Nombre": "Imprenta Aurora",
+      "Cartera": 19687000.0,
+      "UsoCupo": 2.460875,
+      "Semaforo": "Rojo"
+    },
+    {
+      "ClienteID": "C006",
+      "Nombre": "Constructora Andina",
+      "Cartera": 18408000.0,
+      "UsoCupo": 0.5259428571428572,
+      "Semaforo": "Verde"
+    },
+    {
+      "ClienteID": "C013",
+      "Nombre": "Textiles Rionegro",
+      "Cartera": 15612000.0,
+      "UsoCupo": 0.5575714285714286,
+      "Semaforo": "Verde"
+    },
+    {
+      "ClienteID": "C012",
+      "Nombre": "Restaurante El Trapiche",
+      "Cartera": 13875000.0,
+      "UsoCupo": 1.9821428571428572,
+      "Semaforo": "Rojo"
+    },
+    {
+      "ClienteID": "C007",
+      "Nombre": "Hotel Mirador",
+      "Cartera": 10223000.0,
+      "UsoCupo": 0.6815333333333333,
+      "Semaforo": "Verde"
+    }
+  ],
+  "clientes_sobre_cupo_detalle": [
+    {
+      "ClienteID": "C020",
+      "Nombre": "Imprenta Aurora",
+      "Cartera": 19687000.0,
+      "CupoCredito": 8000000.0,
+      "UsoCupo": 2.460875
+    },
+    {
+      "ClienteID": "C012",
+      "Nombre": "Restaurante El Trapiche",
+      "Cartera": 13875000.0,
+      "CupoCredito": 7000000.0,
+      "UsoCupo": 1.9821428571428572
+    },
+    {
+      "ClienteID": "C011",
+      "Nombre": "Talleres Jaramillo",
+      "Cartera": 9180000.0,
+      "CupoCredito": 9000000.0,
+      "UsoCupo": 1.02
+    }
+  ],
+  "pagos_no_aplicados": [
+    {
+      "PagoID": "RC-2026-003",
+      "ClienteID": "C018",
+      "Fecha": "2026-08-24",
+      "ValorRecibido": 9925000,
+      "Aplicado": 9745000,
+      "NoAplicado": 180000
+    },
+    {
+      "PagoID": "RC-2026-011",
+      "ClienteID": "C004",
+      "Fecha": "2026-08-31",
+      "ValorRecibido": 910000,
+      "Aplicado": 590000,
+      "NoAplicado": 320000
+    },
+    {
+      "PagoID": "RC-2026-023",
+      "ClienteID": "C014",
+      "Fecha": "2026-09-11",
+      "ValorRecibido": 7407000,
+      "Aplicado": 7257000,
+      "NoAplicado": 150000
+    },
+    {
+      "PagoID": "RC-2026-031",
+      "ClienteID": "C007",
+      "Fecha": "2026-09-09",
+      "ValorRecibido": 5245000,
+      "Aplicado": 4825000,
+      "NoAplicado": 420000
+    }
+  ],
+  "conciliacion": {
+    "total_banco": 110571000.0,
+    "diferencia": 1193000.0,
+    "conciliados": 33,
+    "pagos_sin_banco": 1,
+    "diferencias_valor": 1,
+    "banco_sin_pago": 1,
+    "detalle_pagos_sin_banco": [
+      {
+        "PagoID": "RC-2026-035",
+        "Referencia": "PAGO-0035",
+        "Fecha": "2026-07-16",
+        "ValorRecibido": 32000
+      }
+    ],
+    "detalle_diferencias": [
+      {
+        "PagoID": "RC-2026-018",
+        "Referencia": "PAGO-0018",
+        "ValorRecibido": 3828000,
+        "ValorBanco": 3803000.0,
+        "DiferenciaBanco": -25000.0
+      }
+    ],
+    "detalle_banco_sin_pago": [
+      {
+        "Fecha": "2026-09-28",
+        "Referencia": "DEP-2026-999",
+        "Descripcion": "Transferencia no identificada",
+        "Valor": 1250000
+      }
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Caso de cartera — 20 clientes</title>
+<style>
+@page {
+  size: Letter;
+  margin: 15mm 16mm 15mm 16mm;
+  @bottom-center {
+    content: "Caso de cartera · Kelvis Samir Copete Córdoba · " counter(page) " / " counter(pages);
+    font-family: 'DejaVu Sans', Arial, sans-serif;
+    font-size: 7.5pt;
+    color: #7A828A;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: 'DejaVu Sans', Arial, sans-serif;
+  color: #2F3B45;
+  font-size: 9.4pt;
+  line-height: 1.45;
+  margin: 0;
+}
+h1, h2, h3 { color: #16324F; margin: 0; }
+h1 { font-size: 26pt; line-height: 1.02; letter-spacing: .2px; }
+h2 { font-size: 15pt; margin-top: 14pt; margin-bottom: 6pt; border-bottom: 2px solid #C9A227; padding-bottom: 3px; }
+h3 { font-size: 11pt; margin-top: 10pt; margin-bottom: 4pt; color: #2A7F8F; }
+p { margin: 0 0 6pt; }
+.cover { min-height: 245mm; display: flex; flex-direction: column; justify-content: space-between; page-break-after: always; }
+.cover-top { border-top: 10px solid #16324F; padding-top: 20pt; }
+.kicker { color: #2A7F8F; font-size: 10pt; font-weight: bold; letter-spacing: 1.8px; text-transform: uppercase; }
+.cover-sub { font-size: 12.5pt; color: #5F6F7F; margin-top: 8pt; max-width: 165mm; }
+.author { margin-top: 20pt; font-size: 10pt; color: #5F6F7F; }
+.cover-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8pt; margin-top: 20pt; }
+.kpi { background: #EEF3F7; border-left: 4px solid #2A7F8F; padding: 9pt 10pt; min-height: 22mm; }
+.kpi .label { font-size: 7.8pt; color: #5F6F7F; text-transform: uppercase; letter-spacing: .5px; }
+.kpi .value { font-size: 16pt; font-weight: bold; color: #16324F; margin-top: 3pt; }
+.kpi .note { font-size: 7.8pt; color: #5F6F7F; margin-top: 2pt; }
+.cover-bottom { border-top: 1px solid #D5DEE7; padding-top: 8pt; font-size: 8pt; color: #5F6F7F; }
+.page-break { page-break-before: always; }
+table { width: 100%; border-collapse: collapse; margin: 6pt 0 8pt; font-size: 8.8pt; }
+th { background: #16324F; color: white; text-align: left; padding: 5pt 6pt; font-size: 8pt; }
+td { border-bottom: 1px solid #E1E7ED; padding: 4.5pt 6pt; vertical-align: top; }
+td.num { text-align: right; white-space: nowrap; }
+tr.total td { background: #EEF3F7; font-weight: bold; color: #16324F; }
+.callout { background: #F7F9FB; border-left: 4px solid #C9A227; padding: 8pt 10pt; margin: 8pt 0; }
+.callout strong { color: #16324F; }
+.warn { border-left-color: #C0392B; background: #FDF2F0; }
+.ok { border-left-color: #1E8449; background: #F0FAF3; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14pt; }
+.chart { display: block; width: 88%; margin: 6pt auto 8pt; }
+.small { font-size: 8.2pt; color: #5F6F7F; }
+ul { margin: 4pt 0 8pt 14pt; padding: 0; }
+li { margin-bottom: 3pt; }
+.tag { display: inline-block; background: #EEF3F7; color: #16324F; font-size: 8pt; font-weight: bold; padding: 2pt 6pt; border-radius: 8pt; margin-right: 4pt; }
+.q { font-weight: bold; color: #16324F; margin-top: 7pt; }
+.a { margin: 2pt 0 7pt 0; }
+.quote { background: #16324F; color: white; padding: 12pt 14pt; margin: 10pt 0; }
+.quote p { color: white; margin: 0; }
+.quote .small { color: #CFE0EC; }
+.footer-note { margin-top: 12pt; padding-top: 6pt; border-top: 1px solid #D5DEE7; font-size: 7.8pt; color: #5F6F7F; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-top">
+    <div class="kicker">Portafolio · Cartera y cuentas por cobrar</div>
+    <h1>Caso de cartera<br>20 clientes</h1>
+    <div class="cover-sub">Notas crédito y débito · aplicación de pagos · aging · conciliación bancaria · dashboard en Excel</div>
+    <div class="author"><strong>Kelvis Samir Copete Córdoba</strong> · Medellín, Colombia · Corte: 30/09/2026</div>
+  </div>
+  <div>
+    <div class="cover-grid">
+      <div class="kpi"><div class="label">Cartera total</div><div class="value">$119,7 M</div><div class="note">$119.696.000</div></div>
+      <div class="kpi"><div class="label">% vencida</div><div class="value">85,5%</div><div class="note">$102,3 M vencidos</div></div>
+      <div class="kpi"><div class="label">Recaudo</div><div class="value">$109,4 M</div><div class="note">$109.378.000</div></div>
+      <div class="kpi"><div class="label">Pagos no aplicados</div><div class="value">$1,1 M</div><div class="note">$1.070.000</div></div>
+      <div class="kpi"><div class="label">Clientes</div><div class="value">20</div><div class="note">50 facturas · 35 pagos</div></div>
+      <div class="kpi"><div class="label">Conciliación</div><div class="value">33/35</div><div class="note">pagos conciliados</div></div>
+    </div>
+    <div class="callout"><strong>Qué demuestra:</strong> capacidad para reconstruir saldos, aplicar pagos, clasificar cartera por vencimiento, detectar clientes sobre cupo y explicar diferencias bancarias con evidencia.</div>
+  </div>
+  <div class="cover-bottom">Datos 100% ficticios · Distribuciones Andinas S.A.S. · Workbook: Cartera_20_Clientes.xlsx · Guía: Guia_Caso_Cartera.pdf</div>
+</div>
+
+<h2>1. Contexto y objetivo</h2>
+<p><strong>Distribuciones Andinas S.A.S.</strong> es una empresa ficticia de suministros corporativos. La cartera está dispersa en 20 clientes, con facturas a 15, 30, 45 y 60 días, notas crédito y débito, pagos parciales y movimientos bancarios que no siempre coinciden con los recaudos registrados.</p>
+<p><strong>Objetivo:</strong> ordenar la cartera al corte del 30/09/2026, reconstruir el saldo por factura, aplicar pagos, clasificar el aging, identificar clientes sobre cupo y conciliar el extracto bancario contra los pagos registrados.</p>
+<div class="callout"><strong>Regla base:</strong> Saldo de factura = valor factura − notas crédito + notas débito − pagos aplicados. Un pago no aplicado no reduce la cartera; queda como partida pendiente de identificar.</div>
+
+<h2>2. Alcance del caso</h2>
+<div class="two-col">
+  <table>
+    <tr><th>Dato</th><th>Cantidad</th></tr>
+    <tr><td>Clientes</td><td class="num">20</td></tr>
+    <tr><td>Facturas</td><td class="num">50</td></tr>
+    <tr><td>Notas crédito</td><td class="num">8</td></tr>
+    <tr><td>Notas débito</td><td class="num">6</td></tr>
+    <tr><td>Pagos</td><td class="num">35</td></tr>
+    <tr><td>Aplicaciones de pago</td><td class="num">40</td></tr>
+    <tr><td>Movimientos bancarios</td><td class="num">35</td></tr>
+  </table>
+  <div>
+    <p><span class="tag">Excel</span><span class="tag">Python/pandas</span><span class="tag">Validación</span></p>
+    <p>El workbook tiene 12 hojas: Inicio, Dashboard, Cartera, Aging, Conciliación, Pagos, Notas, Facturas, Clientes, Aplicación, Extracto y Validación.</p>
+    <p>Las cifras se calculan con fórmulas, no con valores escritos a mano. La hoja <strong>Validación</strong> comprueba los cuadres principales.</p>
+  </div>
+</div>
+
+<h2>3. Cifras clave</h2>
+<table>
+  <tr><th>Rango</th><th>Saldo</th><th>% cartera</th></tr>
+  <tr><td>Vigente</td><td class='num'>$17.360.000</td><td class='num'>14,5%</td></tr><tr><td>0-30</td><td class='num'>$45.694.000</td><td class='num'>38,2%</td></tr><tr><td>31-60</td><td class='num'>$8.962.000</td><td class='num'>7,5%</td></tr><tr><td>61-90</td><td class='num'>$6.823.000</td><td class='num'>5,7%</td></tr><tr><td>>90</td><td class='num'>$40.857.000</td><td class='num'>34,1%</td></tr><tr class='total'><td>Total</td><td class='num'>$119.696.000</td><td class='num'>100,0%</td></tr>
+</table>
+<p class="small">La cartera vencida asciende a $102.336.000 (85,5% del total). El rango <strong>&gt;90 días</strong> concentra $40.857.000 (34,1%).</p>
+
+<h2>4. Hallazgos principales</h2>
+<ul>
+  <li><strong>85,5% de la cartera está vencida.</strong> No es solo un problema de cobro: hay facturas de abril y mayo que siguen abiertas.</li>
+  <li><strong>3 clientes superan su cupo:</strong> Imprenta Aurora (246,1%), Restaurante El Trapiche (198,2%) y Talleres Jaramillo (102,0%).</li>
+  <li><strong>Top 5 concentra 65,0% de la cartera.</strong> La prioridad de cobro no puede ser solo por saldo: hay que cruzar cupo, días vencidos y comportamiento de pago.</li>
+  <li><strong>4 pagos tienen saldo sin aplicar por $1.070.000.</strong> Ese dinero ya entró, pero no está reduciendo la factura correcta.</li>
+  <li><strong>33 de 35 pagos están conciliados.</strong> Quedan 3 partidas: un depósito no identificado, un pago sin registro bancario y una comisión bancaria.</li>
+</ul>
+
+<h2>5. Aging y concentración</h2>
+<img class="chart" src="/home/rimas/cartera-clientes/capturas/01_aging.png">
+<img class="chart" src="/home/rimas/cartera-clientes/capturas/02_top_clientes.png">
+<p class="small">Los clientes en rojo superan el cupo asignado. El top 5 se calcula por saldo total, no por saldo vencido.</p>
+
+<h2>6. Conciliación bancaria</h2>
+<p>El extracto bancario totaliza $110.571.000, mientras que los pagos registrados suman $109.378.000. La diferencia neta es <strong>$1.193.000</strong> y se explica por tres partidas:</p>
+<table>
+  <tr><th>Partida</th><th>Referencia</th><th>Valor</th><th>Estado</th></tr>
+  <tr><td>Depósito no identificado</td><td>DEP-2026-999</td><td class='num'>$1.250.000</td><td>Banco sin pago</td></tr><tr><td>Pago registrado sin banco</td><td>PAGO-0035</td><td class='num'>$32.000</td><td>Pago sin banco</td></tr><tr><td>Comisión bancaria</td><td>PAGO-0018</td><td class='num'>$25.000</td><td>Diferencia de valor</td></tr>
+</table>
+<img class="chart" src="/home/rimas/cartera-clientes/capturas/03_conciliacion.png">
+<div class="callout warn"><strong>Hallazgo de control:</strong> el depósito de $1.250.000 no tiene pago asociado. Antes de aplicarlo a cartera hay que identificar al cliente y la factura; no se debe abonar a ciegas.</div>
+
+<h2>7. Preguntas de entrevista y respuestas guía</h2>
+<div class="q">1. ¿Qué es un pago no aplicado?</div>
+<div class="a">Es un recaudo que ya entró al banco pero todavía no se cruzó contra una factura. En el caso hay $1.070.000 en esa situación. Se investiga, se identifica el cliente y se aplica; mientras tanto no reduce la cartera.</div>
+<div class="q">2. ¿Cómo calculás el saldo de una factura?</div>
+<div class="a">Valor factura − notas crédito + notas débito − pagos aplicados. Las notas crédito disminuyen el saldo; las notas débito lo aumentan. Los pagos no aplicados no se restan.</div>
+<div class="q">3. ¿Qué es el aging y para qué sirve?</div>
+<div class="a">Es la clasificación de la cartera por días vencidos: vigente, 0-30, 31-60, 61-90 y más de 90. Sirve para priorizar cobro, estimar riesgo y detectar clientes que se están financiando con la empresa.</div>
+<div class="q">4. ¿Qué cliente priorizarías?</div>
+<div class="a">Empezaría por Imprenta Aurora: tiene $19.687.000, usa 246,1% de su cupo y combina saldo alto con exceso de cupo. Luego revisaría Restaurante El Trapiche y Talleres Jaramillo.</div>
+<div class="q">5. ¿Cómo conciliás el banco contra cartera?</div>
+<div class="a">Cruzo referencia, fecha y valor; separo pagos conciliados, pagos sin registro bancario, depósitos no identificados y diferencias de valor. Cada diferencia debe tener una explicación y un responsable.</div>
+<div class="q">6. ¿Qué diferencia hay entre nota crédito y nota débito?</div>
+<div class="a">La nota crédito reduce el saldo del cliente (devolución, descuento o error). La nota débito lo aumenta (flete, interés o ajuste). Ambas deben quedar asociadas a una factura y a un motivo.</div>
+<div class="q">7. ¿Qué mejorarías del proceso?</div>
+<div class="a">Aplicaría pagos el mismo día, establecería un control semanal de pagos no aplicados, revisaría cupos antes de facturar y haría conciliación bancaria diaria o semanal, no al cierre.</div>
+
+<h2>8. Cómo explicarlo en 3 minutos</h2>
+<div class="quote">
+<p><strong>“Armé un caso de cartera con 20 clientes y 50 facturas para practicar el ciclo completo: notas crédito y débito, aplicación de pagos, aging y conciliación bancaria.”</strong></p>
+<p class="small">“El caso tiene $119.696.000 de cartera, de los cuales 85,5% está vencida. Detecté 3 clientes sobre cupo, $1.070.000 en pagos no aplicados y 3 partidas de conciliación. El dashboard prioriza cobro por saldo, vencimiento y uso de cupo. Lo construí en Excel con fórmulas y lo validé con Python; la hoja de validación cierra los cuadres.”</p>
+</div>
+<p><strong>Énfasis para la entrevista:</strong> no digas “hice un Excel”. Decí “reconstruí la cartera, expliqué las diferencias y propuse acciones de cobro”.</p>
+
+<h2>9. Límites y notas de honestidad</h2>
+<ul>
+  <li>Todos los datos son ficticios; no se usó información real de empresas.</li>
+  <li>El caso es un ejercicio de cartera en Excel, no una implementación en SAP. No se reclama experiencia en SAP.</li>
+  <li>La conciliación es un caso didáctico: en producción se debe validar contra el ERP, el banco y los soportes.</li>
+  <li>Las decisiones de cobro requieren validación humana y revisión comercial.</li>
+</ul>
+
+<h2>10. Archivos del caso</h2>
+<table>
+  <tr><th>Archivo</th><th>Uso</th></tr>
+  <tr><td>Cartera_20_Clientes.xlsx</td><td>Workbook con dashboard, cartera, aging, conciliación y validación.</td></tr>
+  <tr><td>Guia_Caso_Cartera.pdf</td><td>Esta guía: contexto, cifras, hallazgos y respuestas de entrevista.</td></tr>
+  <tr><td>datos/*.csv</td><td>Datos fuente sintéticos y reproducibles.</td></tr>
+  <tr><td>scripts/*.py</td><td>Generación de datos, cálculo, workbook y guía.</td></tr>
+  <tr><td>capturas/*.png</td><td>Gráficas para portafolio y README.</td></tr>
+</table>
+<div class="footer-note">Caso preparado para el portafolio de Kelvis Samir Copete Córdoba · Medellín, 2026 · Datos ficticios.</div>
+
+</body>
+</html>
